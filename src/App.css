@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.loginButton{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginIcon{
+    margin-right: 6px;
+    margin-top: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navSection{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menuArea{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.manuList{
+    display: flex;
+    list-style-type: none;
+}
+
+.manuList li{
+    padding: 10px;
+}
+
+.searchBox{
+    position: absolute;
+    right: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchtext{
+    margin-left: 8px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.imgCardBox img {
+    transition: all 0.2s linear;
+    width: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .imgCardBox:hover img {
+    transform: scale(1.2);
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.LoginformBox{
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.productImg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DetailDropdown{
+    background-color: white !important;
+    border: 1px solid grey !important;
+    color:rgb(59, 51, 51) !important;
+    font-weight: 600 !important;
+    margin: 10px 0px;
+    font-size: 15px !important;
+    height: 30px;
+    line-height: 15px !important;
+}
+
+.priceTextStyle{
+    margin: 10px 0px;
+}
+
+.titleTextStyle{
+    font-weight: 600;
+}
+
+.addbuttonStyle{
+    margin: 5px 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 15px !important;
+    border-radius: 2px !important;
 }
